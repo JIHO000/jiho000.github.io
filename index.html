@@ -1,1 +1,51 @@
-a
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>toDoList</title>
+  </head>
+  <body>
+    <section class="center">
+      <h2 id="clock"></h2>
+      <div class="js-name name"></div>
+      <div id="wrapper" class="hidden">
+        <header>
+          <h1 class="header-text"></h1>
+        </header>
+        <section class="content">
+          <h4>To Do</h4>
+          <form class="js-to-do to-do">
+            <input
+              class="js-add-to-do to-do__add-to-do write"
+              placeholder="Write a To Do here"
+              type="text"
+            />
+          </form>
+          <ul class="js-list list"></ul>
+        </section>
+        <footer>
+          <div id="quote">
+            <span></span>
+            <span></span>
+          </div>
+        </footer>
+      </div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/randomGradient.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/toDo.js"></script>
+  </body>
+</html>
